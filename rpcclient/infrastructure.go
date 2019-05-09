@@ -25,7 +25,7 @@ import (
 
 	"github.com/btcsuite/websocket"
 	"github.com/htkachuk/divi/btcjson"
-	"github.com/htkachuk/go-socks/socks"
+	"github.com/btcsuite/go-socks/socks"
 )
 
 var (

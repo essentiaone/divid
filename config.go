@@ -29,7 +29,7 @@ import (
 	"github.com/htkachuk/divi/mempool"
 	"github.com/htkachuk/divi/peer"
 	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/go-socks/socks"
+	"github.com/btcsuite/go-socks/socks"
 	flags "github.com/jessevdk/go-flags"
 )
 
