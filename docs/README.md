@@ -50,8 +50,8 @@ wallet functionality and this was a very intentional design decision.  See the
 blog entry [here](https://blog.conformal.com/btcd-not-your-moms-bitcoin-daemon)
 for more details.  This means you can't actually make or receive payments
 directly with btcd.  That functionality is provided by the
-[btcwallet](https://github.com/btcsuite/btcwallet) and
-[Paymetheus](https://github.com/btcsuite/Paymetheus) (Windows-only) projects
+[btcwallet](https://github.com/htkachuk/btcwallet) and
+[Paymetheus](https://github.com/htkachuk/Paymetheus) (Windows-only) projects
 which are both under active development.
 
 <a name="GettingStarted" />
@@ -95,8 +95,8 @@ recommended that `GOPATH` is set to a directory in your home directory such as
 - Run the following commands to obtain btcd, all dependencies, and install it:
 
 ```bash
-$ git clone https://github.com/btcsuite/btcd $GOPATH/src/github.com/btcsuite/btcd
-$ cd $GOPATH/src/github.com/btcsuite/btcd
+$ git clone https://github.com/htkachuk/btcd $GOPATH/src/github.com/htkachuk/btcd
+$ cd $GOPATH/src/github.com/htkachuk/btcd
 $ GO111MODULE=on go install -v . ./cmd/...
 ```
 
@@ -109,7 +109,7 @@ $ GO111MODULE=on go install -v . ./cmd/...
 - Run the following commands to update btcd, all dependencies, and install it:
 
 ```bash
-$ cd $GOPATH/src/github.com/btcsuite/btcd
+$ cd $GOPATH/src/github.com/htkachuk/btcd
 $ git pull && GO111MODULE=on go install -v . ./cmd/...
 ```
 
@@ -126,7 +126,7 @@ $ git pull && GO111MODULE=on go install -v . ./cmd/...
 
 **2.2 Configuration**
 
-btcd has a number of [configuration](http://godoc.org/github.com/btcsuite/btcd)
+btcd has a number of [configuration](http://godoc.org/github.com/htkachuk/btcd)
 options, which can be viewed by running: `$ btcd --help`.
 
 <a name="BtcctlConfig" />
@@ -226,7 +226,7 @@ configuration necessary, however, there is an optional method to use a
 **3.1 Wallet**
 
 btcd was intentionally developed without an integrated wallet for security
-reasons.  Please see [btcwallet](https://github.com/btcsuite/btcwallet) for more
+reasons.  Please see [btcwallet](https://github.com/htkachuk/btcwallet) for more
 information.
 
 
@@ -287,7 +287,7 @@ information.
     * [mempool](https://github.com/htkachuk/divi/tree/master/mempool) -
       Package mempool provides a policy-enforced pool of unmined bitcoin
       transactions.
-    * [btcutil](https://github.com/btcsuite/btcutil) - Provides Bitcoin-specific
+    * [btcutil](https://github.com/htkachuk/btcutil) - Provides Bitcoin-specific
       convenience functions and types
     * [chainhash](https://github.com/htkachuk/divi/tree/master/chaincfg/chainhash) -
       Provides a generic hash type and associated functions that allows the

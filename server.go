@@ -37,7 +37,7 @@ import (
 	"github.com/htkachuk/divi/txscript"
 	"github.com/htkachuk/divi/wire"
 	"github.com/htkachuk/btcutil"
-	"github.com/btcsuite/btcutil/bloom"
+	"github.com/htkachuk/btcutil/bloom"
 )
 
 const (

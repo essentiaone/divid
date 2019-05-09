@@ -17,7 +17,7 @@ import (
 	"github.com/htkachuk/divi/chaincfg/chainhash"
 	"github.com/htkachuk/divi/peer"
 	"github.com/htkachuk/divi/wire"
-	"github.com/btcsuite/go-socks/socks"
+	"github.com/htkachuk/go-socks/socks"
 )
 
 // conn mocks a network connection by implementing the net.Conn interface.  It

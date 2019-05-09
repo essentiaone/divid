@@ -13,7 +13,7 @@ import (
 	"github.com/htkachuk/divi/blockchain/indexers"
 	"github.com/htkachuk/divi/database"
 	"github.com/htkachuk/divi/limits"
-	"github.com/btcsuite/btclog"
+	"github.com/htkachuk/btclog"
 )
 
 const (

@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"github.com/htkachuk/divi/btcjson"
-	"github.com/btcsuite/go-socks/socks"
-	"github.com/btcsuite/websocket"
+	"github.com/htkachuk/go-socks/socks"
+	"github.com/htkachuk/websocket"
 )
 
 var (

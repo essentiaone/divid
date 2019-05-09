@@ -12,7 +12,7 @@ import (
 	"github.com/htkachuk/divi/chaincfg/chainhash"
 	"github.com/htkachuk/divi/txscript"
 	"github.com/htkachuk/divi/wire"
-	"github.com/btcsuite/btclog"
+	"github.com/htkachuk/btclog"
 )
 
 const (

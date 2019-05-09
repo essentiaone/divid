@@ -13,8 +13,8 @@ import (
 	"github.com/htkachuk/divi/database"
 	"github.com/htkachuk/divi/wire"
 	"github.com/htkachuk/btcutil"
-	"github.com/btcsuite/btcutil/gcs"
-	"github.com/btcsuite/btcutil/gcs/builder"
+	"github.com/htkachuk/btcutil/gcs"
+	"github.com/htkachuk/btcutil/gcs/builder"
 )
 
 const (

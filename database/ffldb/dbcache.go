@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/htkachuk/divi/database/internal/treap"
-	"github.com/btcsuite/goleveldb/leveldb"
-	"github.com/btcsuite/goleveldb/leveldb/iterator"
-	"github.com/btcsuite/goleveldb/leveldb/util"
+	"github.com/htkachuk/goleveldb/leveldb"
+	"github.com/htkachuk/goleveldb/leveldb/iterator"
+	"github.com/htkachuk/goleveldb/leveldb/util"
 )
 
 const (
