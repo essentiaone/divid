@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/htkachuk/divi/database"
-	"github.com/htkachuk/btclog"
+	"github.com/btcsuite/btclog"
 	flags "github.com/jessevdk/go-flags"
 )
 

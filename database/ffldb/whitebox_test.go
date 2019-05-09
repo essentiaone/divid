@@ -21,8 +21,8 @@ import (
 	"github.com/htkachuk/divi/database"
 	"github.com/htkachuk/divi/wire"
 	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/goleveldb/leveldb"
-	ldberrors "github.com/htkachuk/goleveldb/leveldb/errors"
+	"github.com/btcsuite/goleveldb/leveldb"
+	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
 )
 
 var (

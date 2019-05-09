@@ -9,7 +9,7 @@ import (
 
 	"github.com/htkachuk/divi/database"
 	"github.com/htkachuk/divi/wire"
-	"github.com/htkachuk/btclog"
+	"github.com/btcsuite/btclog"
 )
 
 var log = btclog.Disabled

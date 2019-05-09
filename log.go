@@ -22,7 +22,7 @@ import (
 	"github.com/htkachuk/divi/peer"
 	"github.com/htkachuk/divi/txscript"
 
-	"github.com/htkachuk/btclog"
+	"github.com/btcsuite/btclog"
 	"github.com/jrick/logrotate/rotator"
 )
 
