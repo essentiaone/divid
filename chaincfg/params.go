@@ -389,7 +389,7 @@ var RegressionNetParams = Params{
 	Bech32HRPSegwit: "bcrt", // always bcrt for reg test net
 
 	// Address encoding magics
-	PubKeyHashAddrID: 0x6f, // starts with m or n
+	PubKeyHashAddrID: 139,  // starts with x or y
 	ScriptHashAddrID: 0xc4, // starts with 2
 	PrivateKeyID:     0xef, // starts with 9 (uncompressed) or c (compressed)
 

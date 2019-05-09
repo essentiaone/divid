@@ -44,12 +44,12 @@ func btcdExecutablePath() (string, error) {
 	}
 
 	// Build btcd and output an executable in a static temp path.
-	outputPath := filepath.Join(testDir, "btcd")
+	outputPath := filepath.Join(testDir, "divi")
 	if runtime.GOOS == "windows" {
 		outputPath += ".exe"
 	}
 	cmd := exec.Command(
-		"go", "build", "-o", outputPath, "github.com/btcsuite/btcd",
+		"go", "build", "-o", outputPath, "github.com/htkachuk/divi",
 	)
 	err = cmd.Run()
 	if err != nil {
