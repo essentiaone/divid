@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/htkachuk/divi/chaincfg/chainhash"
+	"github.com/htkachuk/divi/database"
+	"github.com/htkachuk/divi/wire"
+	"github.com/htkachuk/btcutil"
 )
 
 // importCmd defines the configuration options for the insecureimport command.

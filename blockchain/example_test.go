@@ -10,11 +10,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/database"
-	_ "github.com/btcsuite/btcd/database/ffldb"
-	"github.com/btcsuite/btcutil"
+	"github.com/htkachuk/divi/blockchain"
+	"github.com/htkachuk/divi/chaincfg"
+	"github.com/htkachuk/divi/database"
+	_ "github.com/htkachuk/divi/database/ffldb"
+	"github.com/htkachuk/btcutil"
 )
 
 // This example demonstrates how to create a new chain instance and use
