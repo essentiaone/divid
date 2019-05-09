@@ -28,7 +28,7 @@ import (
 	"github.com/htkachuk/divi/txscript"
 	"github.com/htkachuk/divi/wire"
 	"github.com/htkachuk/btcutil"
-	"github.com/btcsuite/websocket"
+	"github.com/htkachuk/websocket"
 	"golang.org/x/crypto/ripemd160"
 )
 
