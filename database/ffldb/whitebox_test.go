@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcsuite developers
+// Copyright (c) 2015-2016 The htkachuk developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -21,8 +21,8 @@ import (
 	"github.com/htkachuk/divi/database"
 	"github.com/htkachuk/divi/wire"
 	"github.com/htkachuk/btcutil"
-	"github.com/btcsuite/goleveldb/leveldb"
-	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
+	"github.com/htkachuk/goleveldb/leveldb"
+	ldberrors "github.com/htkachuk/goleveldb/leveldb/errors"
 )
 
 var (

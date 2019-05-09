@@ -1,7 +1,7 @@
 txscript
 ========
 
-[![Build Status](https://travis-ci.org/btcsuite/btcd.png?branch=master)](https://travis-ci.org/btcsuite/btcd)
+[![Build Status](https://travis-ci.org/htkachuk/btcd.png?branch=master)](https://travis-ci.org/htkachuk/btcd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://godoc.org/github.com/htkachuk/divi/txscript?status.png)](http://godoc.org/github.com/htkachuk/divi/txscript)
 
@@ -40,7 +40,7 @@ $ go get -u github.com/htkachuk/divi/txscript
 ## GPG Verification Key
 
 All official release tags are signed by Conformal so users can ensure the code
-has not been tampered with and is coming from the btcsuite developers.  To
+has not been tampered with and is coming from the htkachuk developers.  To
 verify the signature perform the following:
 
 - Download the public key from the Conformal website at

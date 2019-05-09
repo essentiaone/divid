@@ -19,7 +19,7 @@
 5. [Developer Resources](#DeveloperResources)
     1. [Code Contribution Guidelines](#ContributionGuidelines)
     2. [JSON-RPC Reference](#JSONRPCReference)
-    3. [The btcsuite Bitcoin-related Go Packages](#GoPackages)
+    3. [The htkachuk Bitcoin-related Go Packages](#GoPackages)
 
 <a name="About" />
 
@@ -264,7 +264,7 @@ information.
 
 <a name="GoPackages" />
 
-* The btcsuite Bitcoin-related Go Packages:
+* The htkachuk Bitcoin-related Go Packages:
     * [btcrpcclient](https://github.com/htkachuk/divi/tree/master/rpcclient) - Implements a
       robust and easy to use Websocket-enabled Bitcoin JSON-RPC client
     * [btcjson](https://github.com/htkachuk/divi/tree/master/btcjson) - Provides an extensive API
