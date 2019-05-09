@@ -95,8 +95,8 @@ recommended that `GOPATH` is set to a directory in your home directory such as
 - Run the following commands to obtain btcd, all dependencies, and install it:
 
 ```bash
-$ git clone https://github.com/htkachuk/btcd $GOPATH/src/github.com/htkachuk/btcd
-$ cd $GOPATH/src/github.com/htkachuk/btcd
+$ git clone https://github.com/htkachuk/divi $GOPATH/src/github.com/htkachuk/divi
+$ cd $GOPATH/src/github.com/htkachuk/divi
 $ GO111MODULE=on go install -v . ./cmd/...
 ```
 
@@ -109,7 +109,7 @@ $ GO111MODULE=on go install -v . ./cmd/...
 - Run the following commands to update btcd, all dependencies, and install it:
 
 ```bash
-$ cd $GOPATH/src/github.com/htkachuk/btcd
+$ cd $GOPATH/src/github.com/htkachuk/divi
 $ git pull && GO111MODULE=on go install -v . ./cmd/...
 ```
 
@@ -126,7 +126,7 @@ $ git pull && GO111MODULE=on go install -v . ./cmd/...
 
 **2.2 Configuration**
 
-btcd has a number of [configuration](http://godoc.org/github.com/htkachuk/btcd)
+btcd has a number of [configuration](http://godoc.org/github.com/htkachuk/divi)
 options, which can be viewed by running: `$ btcd --help`.
 
 <a name="BtcctlConfig" />

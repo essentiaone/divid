@@ -9,7 +9,7 @@ Overview
 
 This client provides a robust and easy to use client for interfacing with a
 Bitcoin RPC server that uses a btcd/bitcoin core compatible Bitcoin JSON-RPC
-API.  This client has been tested with btcd (https://github.com/htkachuk/btcd),
+API.  This client has been tested with btcd (https://github.com/htkachuk/divi),
 btcwallet (https://github.com/htkachuk/btcwallet), and
 bitcoin core (https://github.com/bitcoin).
 

@@ -1,4 +1,4 @@
-module github.com/htkachuk/btcd
+module github.com/htkachuk/divi
 
 require (
 	github.com/aead/siphash v1.0.1 // indirect
