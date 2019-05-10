@@ -14,8 +14,8 @@ import (
 	"runtime"
 	"time"
 
-	rpc "github.com/htkachuk/divi/rpcclient"
 	"github.com/htkachuk/btcutil"
+	rpc "github.com/htkachuk/divi/rpcclient"
 )
 
 // nodeConfig contains all the args, and data required to launch a btcd process
@@ -48,8 +48,8 @@ func newConfig(prefix, certFile, keyFile string, extra []string) (*nodeConfig, e
 	}
 
 	a := &nodeConfig{
-		listen:    "127.0.0.1:18555",
-		rpcListen: "127.0.0.1:18556",
+		listen:    "127.0.0.1:51473",
+		rpcListen: "127.0.0.1:51473",
 		rpcUser:   "user",
 		rpcPass:   "pass",
 		extra:     extra,
