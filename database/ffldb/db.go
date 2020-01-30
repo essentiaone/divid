@@ -19,13 +19,13 @@ import (
 	"github.com/essentiaone/divid/database/internal/treap"
 	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/goleveldb/leveldb"
-	"github.com/essentiaone/goleveldb/leveldb/comparer"
-	ldberrors "github.com/essentiaone/goleveldb/leveldb/errors"
-	"github.com/essentiaone/goleveldb/leveldb/filter"
-	"github.com/essentiaone/goleveldb/leveldb/iterator"
-	"github.com/essentiaone/goleveldb/leveldb/opt"
-	"github.com/essentiaone/goleveldb/leveldb/util"
+	"github.com/btcsuite/goleveldb/leveldb"
+	"github.com/btcsuite/goleveldb/leveldb/comparer"
+	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
+	"github.com/btcsuite/goleveldb/leveldb/filter"
+	"github.com/btcsuite/goleveldb/leveldb/iterator"
+	"github.com/btcsuite/goleveldb/leveldb/opt"
+	"github.com/btcsuite/goleveldb/leveldb/util"
 )
 
 const (

@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/essentiaone/divid/database/internal/treap"
-	"github.com/essentiaone/goleveldb/leveldb"
-	"github.com/essentiaone/goleveldb/leveldb/iterator"
-	"github.com/essentiaone/goleveldb/leveldb/util"
+	"github.com/btcsuite/goleveldb/leveldb"
+	"github.com/btcsuite/goleveldb/leveldb/iterator"
+	"github.com/btcsuite/goleveldb/leveldb/util"
 )
 
 const (

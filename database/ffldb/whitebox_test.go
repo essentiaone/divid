@@ -21,8 +21,8 @@ import (
 	"github.com/essentiaone/divid/database"
 	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/goleveldb/leveldb"
-	ldberrors "github.com/essentiaone/goleveldb/leveldb/errors"
+	"github.com/btcsuite/goleveldb/leveldb"
+	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
 )
 
 var (

@@ -6,8 +6,8 @@ package ffldb
 
 import (
 	"github.com/essentiaone/divid/database/internal/treap"
-	"github.com/essentiaone/goleveldb/leveldb/iterator"
-	"github.com/essentiaone/goleveldb/leveldb/util"
+	"github.com/btcsuite/goleveldb/leveldb/iterator"
+	"github.com/btcsuite/goleveldb/leveldb/util"
 )
 
 // ldbTreapIter wraps a treap iterator to provide the additional functionality
