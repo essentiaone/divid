@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/wire"
 )
 
 var (

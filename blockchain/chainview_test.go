@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/wire"
 )
 
 // testNoncePrng provides a deterministic prng for the nonce in generated fake

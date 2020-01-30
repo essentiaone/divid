@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/essentiaone/divi/chaincfg/chainhash"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/wire"
 )
 
 // Bip16Activation is the timestamp where BIP0016 is valid to use in the

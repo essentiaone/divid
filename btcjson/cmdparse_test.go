@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/essentiaone/divi/btcjson"
+	"github.com/essentiaone/divid/btcjson"
 )
 
 // TestAssignField tests the assignField function handles supported combinations

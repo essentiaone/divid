@@ -7,7 +7,7 @@ package wire
 import (
 	"io"
 
-	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
 )
 
 // MaxGetCFiltersReqRange the maximum number of filters that may be requested in

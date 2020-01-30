@@ -3,7 +3,7 @@ btcec
 
 [![Build Status](https://travis-ci.org/essentiaone/btcd.png?branch=master)](https://travis-ci.org/essentiaone/btcec)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://godoc.org/github.com/essentiaone/divi/btcec?status.png)](http://godoc.org/github.com/essentiaone/divi/btcec)
+[![GoDoc](https://godoc.org/github.com/essentiaone/divid/btcec?status.png)](http://godoc.org/github.com/essentiaone/divid/btcec)
 
 Package btcec implements elliptic curve cryptography needed for working with
 Bitcoin (secp256k1 only for now). It is designed so that it may be used with the
@@ -20,24 +20,24 @@ use secp256k1 elliptic curve cryptography.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/essentiaone/divi/btcec
+$ go get -u github.com/essentiaone/divid/btcec
 ```
 
 ## Examples
 
-* [Sign Message](http://godoc.org/github.com/essentiaone/divi/btcec#example-package--SignMessage)  
+* [Sign Message](http://godoc.org/github.com/essentiaone/divid/btcec#example-package--SignMessage)  
   Demonstrates signing a message with a secp256k1 private key that is first
   parsed form raw bytes and serializing the generated signature.
 
-* [Verify Signature](http://godoc.org/github.com/essentiaone/divi/btcec#example-package--VerifySignature)  
+* [Verify Signature](http://godoc.org/github.com/essentiaone/divid/btcec#example-package--VerifySignature)  
   Demonstrates verifying a secp256k1 signature against a public key that is
   first parsed from raw bytes.  The signature is also parsed from raw bytes.
 
-* [Encryption](http://godoc.org/github.com/essentiaone/divi/btcec#example-package--EncryptMessage)
+* [Encryption](http://godoc.org/github.com/essentiaone/divid/btcec#example-package--EncryptMessage)
   Demonstrates encrypting a message for a public key that is first parsed from
   raw bytes, then decrypting it using the corresponding private key.
 
-* [Decryption](http://godoc.org/github.com/essentiaone/divi/btcec#example-package--DecryptMessage)
+* [Decryption](http://godoc.org/github.com/essentiaone/divid/btcec#example-package--DecryptMessage)
   Demonstrates decrypting a message using a private key that is first parsed
   from raw bytes.
 

@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/wire"
 )
 
 // TestParseOpcode tests for opcode parsing with bad data templates.

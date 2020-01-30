@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
 )
 
 // defaultTransactionAlloc is the default size used for the backing array

@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
 )
 
 const (

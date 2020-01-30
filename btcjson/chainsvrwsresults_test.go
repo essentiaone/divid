@@ -9,7 +9,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/essentiaone/divi/btcjson"
+	"github.com/essentiaone/divid/btcjson"
 )
 
 // TestChainSvrWsResults ensures any results that have custom marshalling

@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/essentiaone/divi/addrmgr"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/addrmgr"
+	"github.com/essentiaone/divid/wire"
 )
 
 // naTest is used to describe a test to be performed against the NetAddressKey

@@ -26,7 +26,7 @@
 //          "log"
 //
 //          "github.com/essentiaone/btcutil"
-//          "github.com/essentiaone/divi/chaincfg"
+//          "github.com/essentiaone/divid/chaincfg"
 //  )
 //
 //  var testnet = flag.Bool("testnet", false, "operate on the testnet Bitcoin network")

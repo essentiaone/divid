@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"hash/crc32"
 
-	"github.com/essentiaone/divi/database"
+	"github.com/essentiaone/divid/database"
 )
 
 // The serialized write cursor location format is:

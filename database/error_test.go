@@ -8,7 +8,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/essentiaone/divi/database"
+	"github.com/essentiaone/divid/database"
 )
 
 // TestErrorCodeStringer tests the stringized output for the ErrorCode type.

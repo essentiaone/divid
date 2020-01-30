@@ -3,7 +3,7 @@ ffldb
 
 [![Build Status](https://travis-ci.org/essentiaone/btcd.png?branch=master)](https://travis-ci.org/essentiaone/btcd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://godoc.org/github.com/essentiaone/divi/database/ffldb?status.png)](http://godoc.org/github.com/essentiaone/divi/database/ffldb)
+[![GoDoc](https://godoc.org/github.com/essentiaone/divid/database/ffldb?status.png)](http://godoc.org/github.com/essentiaone/divid/database/ffldb)
 =======
 
 Package ffldb implements a driver for the database package that uses leveldb for

@@ -1157,8 +1157,8 @@ package main
 import (
 	"github.com/essentiaone/btcrpcclient"
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/divi/chaincfg/chainhash"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/wire"
 	"io/ioutil"
 	"log"
 	"path/filepath"
@@ -1249,8 +1249,8 @@ package main
 import (
 	"github.com/essentiaone/btcrpcclient"
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/divi/chaincfg/chainhash"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/wire"
 	"io/ioutil"
 	"log"
 	"path/filepath"

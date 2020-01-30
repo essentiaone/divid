@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/essentiaone/divi/blockchain"
-	"github.com/essentiaone/divi/blockchain/indexers"
-	"github.com/essentiaone/divi/database"
-	"github.com/essentiaone/divi/limits"
+	"github.com/essentiaone/divid/blockchain"
+	"github.com/essentiaone/divid/blockchain/indexers"
+	"github.com/essentiaone/divid/database"
+	"github.com/essentiaone/divid/limits"
 	"github.com/essentiaone/btclog"
 )
 

@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/essentiaone/divi/btcec"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/btcec"
+	"github.com/essentiaone/divid/wire"
 )
 
 // ScriptFlags is a bitmask defining additional operations or tests that will be

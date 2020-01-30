@@ -7,8 +7,8 @@ package txscript
 import (
 	"testing"
 
-	"github.com/essentiaone/divi/chaincfg/chainhash"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/wire"
 )
 
 // TestBadPC sets the pc to a deliberately bad result then confirms that Step()

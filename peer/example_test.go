@@ -10,9 +10,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/essentiaone/divi/chaincfg"
-	"github.com/essentiaone/divi/peer"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/divid/peer"
+	"github.com/essentiaone/divid/wire"
 )
 
 // mockRemotePeer creates a basic inbound peer listening on the simnet port for

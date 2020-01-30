@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
 )
 
 // maxFlagsPerMerkleBlock is the maximum number of flag bytes that could

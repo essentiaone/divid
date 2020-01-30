@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/wire"
 	"github.com/davecgh/go-spew/spew"
 )
 

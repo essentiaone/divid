@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
 )
 
 // MaxBlockLocatorsPerMsg is the maximum number of block locator hashes allowed

@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/essentiaone/divi/rpcclient"
+	"github.com/essentiaone/divid/rpcclient"
 	"github.com/essentiaone/btcutil"
 	"github.com/davecgh/go-spew/spew"
 )

@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/essentiaone/divi/chaincfg"
-	"github.com/essentiaone/divi/chaincfg/chainhash"
-	"github.com/essentiaone/divi/database"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/database"
+	"github.com/essentiaone/divid/wire"
 )
 
 // blockStatus is a bit field representing the validation state of the block.

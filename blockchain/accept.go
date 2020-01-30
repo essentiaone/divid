@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/divi/database"
+	"github.com/essentiaone/divid/database"
 )
 
 // maybeAcceptBlock potentially accepts a block into the block chain and, if

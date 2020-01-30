@@ -5,8 +5,8 @@
 package mining
 
 import (
-	"github.com/essentiaone/divi/blockchain"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/blockchain"
+	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
 )
 

@@ -7,7 +7,7 @@ package addrmgr
 import (
 	"time"
 
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/wire"
 )
 
 func TstKnownAddressIsBad(ka *KnownAddress) bool {

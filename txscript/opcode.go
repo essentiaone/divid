@@ -14,9 +14,9 @@ import (
 
 	"golang.org/x/crypto/ripemd160"
 
-	"github.com/essentiaone/divi/btcec"
-	"github.com/essentiaone/divi/chaincfg/chainhash"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/btcec"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/wire"
 )
 
 // An opcode defines the information related to a txscript opcode.  opfunc, if

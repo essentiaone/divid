@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/essentiaone/divi/database"
-	_ "github.com/essentiaone/divi/database/ffldb"
+	"github.com/essentiaone/divid/database"
+	_ "github.com/essentiaone/divid/database/ffldb"
 )
 
 var (

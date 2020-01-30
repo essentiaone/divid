@@ -10,10 +10,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/essentiaone/divi/chaincfg"
-	"github.com/essentiaone/divi/database"
-	_ "github.com/essentiaone/divi/database/ffldb"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/divid/database"
+	_ "github.com/essentiaone/divid/database/ffldb"
+	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
 )
 
@@ -22,8 +22,8 @@ func ExampleCreate() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/essentiaone/divi/database"
-	// 	_ "github.com/essentiaone/divi/database/ffldb"
+	// 	"github.com/essentiaone/divid/database"
+	// 	_ "github.com/essentiaone/divid/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.
@@ -48,8 +48,8 @@ func Example_basicUsage() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/essentiaone/divi/database"
-	// 	_ "github.com/essentiaone/divi/database/ffldb"
+	// 	"github.com/essentiaone/divid/database"
+	// 	_ "github.com/essentiaone/divid/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.
@@ -114,8 +114,8 @@ func Example_blockStorageAndRetrieval() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/essentiaone/divi/database"
-	// 	_ "github.com/essentiaone/divi/database/ffldb"
+	// 	"github.com/essentiaone/divid/database"
+	// 	_ "github.com/essentiaone/divid/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.

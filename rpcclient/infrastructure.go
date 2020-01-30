@@ -23,7 +23,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/essentiaone/divi/btcjson"
+	"github.com/essentiaone/divid/btcjson"
 	"github.com/essentiaone/go-socks/socks"
 	"github.com/essentiaone/websocket"
 )

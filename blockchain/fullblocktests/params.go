@@ -9,9 +9,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/essentiaone/divi/chaincfg"
-	"github.com/essentiaone/divi/chaincfg/chainhash"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/wire"
 )
 
 // newHashFromStr converts the passed big-endian hex string into a

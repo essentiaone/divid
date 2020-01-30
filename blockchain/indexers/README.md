@@ -3,7 +3,7 @@ indexers
 
 [![Build Status](https://travis-ci.org/essentiaone/btcd.png?branch=master)](https://travis-ci.org/essentiaone/btcd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://godoc.org/github.com/essentiaone/divi/blockchain/indexers?status.png)](http://godoc.org/github.com/essentiaone/divi/blockchain/indexers)
+[![GoDoc](https://godoc.org/github.com/essentiaone/divid/blockchain/indexers?status.png)](http://godoc.org/github.com/essentiaone/divid/blockchain/indexers)
 
 Package indexers implements optional block chain indexes.
 
@@ -23,7 +23,7 @@ via an RPC interface.
 ## Installation
 
 ```bash
-$ go get -u github.com/essentiaone/divi/blockchain/indexers
+$ go get -u github.com/essentiaone/divid/blockchain/indexers
 ```
 
 ## License

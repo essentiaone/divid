@@ -17,7 +17,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/essentiaone/divi/btcec"
+	"github.com/essentiaone/divid/btcec"
 )
 
 func main() {

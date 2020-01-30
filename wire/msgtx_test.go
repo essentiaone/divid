@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
 	"github.com/davecgh/go-spew/spew"
 )
 

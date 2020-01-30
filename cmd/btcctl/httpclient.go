@@ -10,7 +10,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/essentiaone/divi/btcjson"
+	"github.com/essentiaone/divid/btcjson"
 	"github.com/essentiaone/go-socks/socks"
 )
 

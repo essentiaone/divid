@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/essentiaone/divi/btcjson"
+	"github.com/essentiaone/divid/btcjson"
 )
 
 // TestHelpers tests the various helper functions which create pointers to

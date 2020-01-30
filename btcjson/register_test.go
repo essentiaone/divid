@@ -9,7 +9,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/essentiaone/divi/btcjson"
+	"github.com/essentiaone/divid/btcjson"
 )
 
 // TestUsageFlagStringer tests the stringized output for the UsageFlag type.

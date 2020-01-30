@@ -12,13 +12,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/essentiaone/divi/blockchain"
-	"github.com/essentiaone/divi/chaincfg"
-	"github.com/essentiaone/divi/chaincfg/chainhash"
-	"github.com/essentiaone/divi/database"
-	"github.com/essentiaone/divi/mempool"
-	peerpkg "github.com/essentiaone/divi/peer"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/blockchain"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/database"
+	"github.com/essentiaone/divid/mempool"
+	peerpkg "github.com/essentiaone/divid/peer"
+	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
 )
 

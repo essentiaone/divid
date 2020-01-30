@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/essentiaone/divi/btcjson"
+	"github.com/essentiaone/divid/btcjson"
 )
 
 // TestIsValidIDType ensures the IsValidIDType function behaves as expected.

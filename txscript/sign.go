@@ -8,9 +8,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/essentiaone/divi/btcec"
-	"github.com/essentiaone/divi/chaincfg"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/btcec"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
 )
 

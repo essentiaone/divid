@@ -8,8 +8,8 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/essentiaone/divi/btcec"
-	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divid/btcec"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
 )
 
 // genRandomSig returns a random message, a signature of the message under the

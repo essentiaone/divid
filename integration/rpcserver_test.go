@@ -14,8 +14,8 @@ import (
 	"runtime/debug"
 	"testing"
 
-	"github.com/essentiaone/divi/chaincfg"
-	"github.com/essentiaone/divi/integration/rpctest"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/divid/integration/rpctest"
 )
 
 func testGetBestBlock(r *rpctest.Harness, t *testing.T) {

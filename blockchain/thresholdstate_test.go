@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
 )
 
 // TestThresholdStateStringer tests the stringized output for the

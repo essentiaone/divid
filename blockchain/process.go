@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/essentiaone/divi/chaincfg/chainhash"
-	"github.com/essentiaone/divi/database"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/database"
 	"github.com/essentiaone/btcutil"
 )
 

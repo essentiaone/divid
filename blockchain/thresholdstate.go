@@ -7,7 +7,7 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
 )
 
 // ThresholdState define the various threshold states used when voting on

@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/essentiaone/divi/btcjson"
+	"github.com/essentiaone/divid/btcjson"
 )
 
 // TestHelpReflectInternals ensures the various help functions which deal with

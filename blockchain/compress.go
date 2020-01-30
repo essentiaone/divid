@@ -5,8 +5,8 @@
 package blockchain
 
 import (
-	"github.com/essentiaone/divi/btcec"
-	"github.com/essentiaone/divi/txscript"
+	"github.com/essentiaone/divid/btcec"
+	"github.com/essentiaone/divid/txscript"
 )
 
 // -----------------------------------------------------------------------------

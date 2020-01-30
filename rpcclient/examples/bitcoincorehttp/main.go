@@ -7,7 +7,7 @@ package main
 import (
 	"log"
 
-	"github.com/essentiaone/divi/rpcclient"
+	"github.com/essentiaone/divid/rpcclient"
 )
 
 func main() {

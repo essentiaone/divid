@@ -8,8 +8,8 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/essentiaone/divi/btcec"
-	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divid/btcec"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
 )
 
 // This example demonstrates signing a message with a secp256k1 private key that

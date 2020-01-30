@@ -8,8 +8,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/essentiaone/divi/addrmgr"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/addrmgr"
+	"github.com/essentiaone/divid/wire"
 )
 
 // TestIPTypes ensures the various functions which determine the type of an IP

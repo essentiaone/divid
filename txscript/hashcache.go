@@ -7,8 +7,8 @@ package txscript
 import (
 	"sync"
 
-	"github.com/essentiaone/divi/chaincfg/chainhash"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/wire"
 )
 
 // TxSigHashes houses the partial set of sighashes introduced within BIP0143.

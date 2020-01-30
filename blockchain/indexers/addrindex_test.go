@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/wire"
 )
 
 // addrIndexBucket provides a mock address index database bucket by implementing

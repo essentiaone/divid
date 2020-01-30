@@ -16,8 +16,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/essentiaone/divi/chaincfg/chainhash"
-	"github.com/essentiaone/divi/mining"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/mining"
 	"github.com/essentiaone/btcutil"
 )
 

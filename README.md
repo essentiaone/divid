@@ -41,7 +41,7 @@ which are both under active development.
 
 #### Windows - MSI Available
 
-https://github.com/essentiaone/divi/releases
+https://github.com/essentiaone/divid/releases
 
 #### Linux/BSD/MacOSX/POSIX - Build from Source
 
@@ -111,12 +111,12 @@ $ ./btcd
 
 ## Issue Tracker
 
-The [integrated github issue tracker](https://github.com/essentiaone/divi/issues)
+The [integrated github issue tracker](https://github.com/essentiaone/divid/issues)
 is used for this project.
 
 ## Documentation
 
-The documentation is a work-in-progress.  It is located in the [docs](https://github.com/essentiaone/divi/tree/master/docs) folder.
+The documentation is a work-in-progress.  It is located in the [docs](https://github.com/essentiaone/divid/tree/master/docs) folder.
 
 ## GPG Verification Key
 

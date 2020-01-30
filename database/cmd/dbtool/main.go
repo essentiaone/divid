@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/essentiaone/divi/database"
+	"github.com/essentiaone/divid/database"
 	"github.com/essentiaone/btclog"
 	flags "github.com/jessevdk/go-flags"
 )

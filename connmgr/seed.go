@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/essentiaone/divi/chaincfg"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/divid/wire"
 )
 
 const (

@@ -3,7 +3,7 @@ mempool
 
 [![Build Status](http://img.shields.io/travis/essentiaone/btcd.svg)](https://travis-ci.org/essentiaone/btcd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/essentiaone/divi/mempool)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/essentiaone/divid/mempool)
 
 Package mempool provides a policy-enforced pool of unmined bitcoin transactions.
 
@@ -74,7 +74,7 @@ be an exhaustive list.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/essentiaone/divi/mempool
+$ go get -u github.com/essentiaone/divid/mempool
 ```
 
 ## License

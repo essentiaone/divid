@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/essentiaone/divi/chaincfg/chainhash"
-	"github.com/essentiaone/divi/rpcclient"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/rpcclient"
 )
 
 // JoinType is an enum representing a particular type of "node join". A node

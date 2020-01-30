@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/essentiaone/divi/btcjson"
+	"github.com/essentiaone/divid/btcjson"
 )
 
 // TestChainSvrWsCmds tests all of the chain server websocket-specific commands

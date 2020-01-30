@@ -3,7 +3,7 @@ netsync
 
 [![Build Status](http://img.shields.io/travis/essentiaone/btcd.svg)](https://travis-ci.org/essentiaone/btcd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/essentiaone/divi/netsync)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/essentiaone/divid/netsync)
 
 ## Overview
 
@@ -17,7 +17,7 @@ longest chain the sync peer is aware of.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/essentiaone/divi/netsync
+$ go get -u github.com/essentiaone/divid/netsync
 ```
 
 ## License

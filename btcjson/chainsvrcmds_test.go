@@ -11,8 +11,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/essentiaone/divi/btcjson"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/btcjson"
+	"github.com/essentiaone/divid/wire"
 )
 
 // TestChainSvrCmds tests all of the chain server commands marshal and unmarshal

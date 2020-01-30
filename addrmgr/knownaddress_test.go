@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/essentiaone/divi/addrmgr"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/addrmgr"
+	"github.com/essentiaone/divid/wire"
 )
 
 func TestChance(t *testing.T) {

@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/essentiaone/divi/btcjson"
+	"github.com/essentiaone/divid/btcjson"
 )
 
 // TestWalletSvrWsNtfns tests all of the chain server websocket-specific

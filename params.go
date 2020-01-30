@@ -5,8 +5,8 @@
 package main
 
 import (
-	"github.com/essentiaone/divi/chaincfg"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/divid/wire"
 )
 
 // activeNetParams is a pointer to the parameters specific to the

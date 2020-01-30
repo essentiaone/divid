@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/divi/chaincfg"
-	"github.com/essentiaone/divi/chaincfg/chainhash"
-	"github.com/essentiaone/divi/txscript"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/txscript"
 )
 
 // CheckpointConfirmations is the number of blocks before the end of the current

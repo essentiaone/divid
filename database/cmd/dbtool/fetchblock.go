@@ -9,8 +9,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/essentiaone/divi/chaincfg/chainhash"
-	"github.com/essentiaone/divi/database"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/database"
 )
 
 // fetchBlockCmd defines the configuration options for the fetchblock command.

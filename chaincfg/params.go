@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/essentiaone/divi/chaincfg/chainhash"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/wire"
 )
 
 // These variables are the chain proof-of-work limit parameters for each default

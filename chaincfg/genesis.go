@@ -7,8 +7,8 @@ package chaincfg
 import (
 	"time"
 
-	"github.com/essentiaone/divi/chaincfg/chainhash"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/wire"
 )
 
 // genesisCoinbaseTx is the coinbase transaction for the genesis blocks for

@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/essentiaone/divi/database/internal/treap"
+	"github.com/essentiaone/divid/database/internal/treap"
 	"github.com/essentiaone/goleveldb/leveldb"
 	"github.com/essentiaone/goleveldb/leveldb/iterator"
 	"github.com/essentiaone/goleveldb/leveldb/util"

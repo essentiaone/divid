@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/essentiaone/divi/btcjson"
+	"github.com/essentiaone/divid/btcjson"
 )
 
 // helpDescsEnUS defines the English descriptions used for the help strings.

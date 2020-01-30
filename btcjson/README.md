@@ -3,7 +3,7 @@ btcjson
 
 [![Build Status](https://travis-ci.org/essentiaone/btcd.png?branch=master)](https://travis-ci.org/essentiaone/btcd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/essentiaone/divi/btcjson)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/essentiaone/divid/btcjson)
 
 Package btcjson implements concrete types for marshalling to and from the
 bitcoin JSON-RPC API.  A comprehensive suite of tests is provided to ensure
@@ -25,22 +25,22 @@ ints, etc) to higher-level types with many nice and useful properties.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/essentiaone/divi/btcjson
+$ go get -u github.com/essentiaone/divid/btcjson
 ```
 
 ## Examples
 
-* [Marshal Command](http://godoc.org/github.com/essentiaone/divi/btcjson#example-MarshalCmd)  
+* [Marshal Command](http://godoc.org/github.com/essentiaone/divid/btcjson#example-MarshalCmd)  
   Demonstrates how to create and marshal a command into a JSON-RPC request.
 
-* [Unmarshal Command](http://godoc.org/github.com/essentiaone/divi/btcjson#example-UnmarshalCmd)  
+* [Unmarshal Command](http://godoc.org/github.com/essentiaone/divid/btcjson#example-UnmarshalCmd)  
   Demonstrates how to unmarshal a JSON-RPC request and then unmarshal the
   concrete request into a concrete command.
 
-* [Marshal Response](http://godoc.org/github.com/essentiaone/divi/btcjson#example-MarshalResponse)  
+* [Marshal Response](http://godoc.org/github.com/essentiaone/divid/btcjson#example-MarshalResponse)  
   Demonstrates how to marshal a JSON-RPC response.
 
-* [Unmarshal Response](http://godoc.org/github.com/essentiaone/divi/btcjson#example-package--UnmarshalResponse)  
+* [Unmarshal Response](http://godoc.org/github.com/essentiaone/divid/btcjson#example-package--UnmarshalResponse)  
   Demonstrates how to unmarshal a JSON-RPC response and then unmarshal the
   result field in the response to a concrete type.
 

@@ -7,8 +7,8 @@ package txscript
 import (
 	"sync"
 
-	"github.com/essentiaone/divi/btcec"
-	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divid/btcec"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
 )
 
 // sigCacheEntry represents an entry in the SigCache. Entries within the

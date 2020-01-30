@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"github.com/essentiaone/btcutil"
-	rpc "github.com/essentiaone/divi/rpcclient"
+	rpc "github.com/essentiaone/divid/rpcclient"
 )
 
 // nodeConfig contains all the args, and data required to launch a btcd process

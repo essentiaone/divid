@@ -9,8 +9,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/essentiaone/divi/btcjson"
-	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divid/btcjson"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
 	"github.com/essentiaone/btcutil"
 )
 

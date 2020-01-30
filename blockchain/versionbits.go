@@ -7,7 +7,7 @@ package blockchain
 import (
 	"math"
 
-	"github.com/essentiaone/divi/chaincfg"
+	"github.com/essentiaone/divid/chaincfg"
 )
 
 const (

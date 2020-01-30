@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/essentiaone/divi/chaincfg"
+	"github.com/essentiaone/divid/chaincfg"
 )
 
 // TestNotifications ensures that notification callbacks are fired on events.

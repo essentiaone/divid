@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/essentiaone/divi/chaincfg/chainhash"
-	"github.com/essentiaone/divi/database"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/database"
 )
 
 // blockRegionCmd defines the configuration options for the fetchblockregion

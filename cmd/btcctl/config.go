@@ -13,7 +13,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/essentiaone/divi/btcjson"
+	"github.com/essentiaone/divid/btcjson"
 	"github.com/essentiaone/btcutil"
 	flags "github.com/jessevdk/go-flags"
 )

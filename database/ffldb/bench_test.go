@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/essentiaone/divi/chaincfg"
-	"github.com/essentiaone/divi/database"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/divid/database"
 	"github.com/essentiaone/btcutil"
 )
 

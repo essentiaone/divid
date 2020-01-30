@@ -11,8 +11,8 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/essentiaone/divi/blockchain"
-	"github.com/essentiaone/divi/database"
+	"github.com/essentiaone/divid/blockchain"
+	"github.com/essentiaone/divid/database"
 	"github.com/essentiaone/btcutil"
 )
 

@@ -11,8 +11,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/essentiaone/divi/database"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/database"
+	"github.com/essentiaone/divid/wire"
 )
 
 // TestErrNotInMainChain ensures the functions related to errNotInMainChain work

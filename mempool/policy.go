@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/essentiaone/divi/blockchain"
-	"github.com/essentiaone/divi/txscript"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/blockchain"
+	"github.com/essentiaone/divid/txscript"
+	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
 )
 

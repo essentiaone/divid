@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/essentiaone/divi/rpcclient"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/rpcclient"
+	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
 )
 

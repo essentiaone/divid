@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
 )
 
 // RejectCode represents a numeric value by which a remote peer indicates

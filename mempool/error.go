@@ -5,8 +5,8 @@
 package mempool
 
 import (
-	"github.com/essentiaone/divi/blockchain"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/blockchain"
+	"github.com/essentiaone/divid/wire"
 )
 
 // RuleError identifies a rule violation.  It is used to indicate that

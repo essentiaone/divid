@@ -14,12 +14,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/essentiaone/divi/chaincfg"
-	"github.com/essentiaone/divi/chaincfg/chainhash"
-	"github.com/essentiaone/divi/database"
-	_ "github.com/essentiaone/divi/database/ffldb"
-	"github.com/essentiaone/divi/txscript"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/database"
+	_ "github.com/essentiaone/divid/database/ffldb"
+	"github.com/essentiaone/divid/txscript"
+	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
 )
 
