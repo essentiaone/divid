@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The htkachuk developers
+// Copyright (c) 2015-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -8,8 +8,8 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/htkachuk/divi/btcec"
-	"github.com/htkachuk/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divi/btcec"
+	"github.com/essentiaone/divi/chaincfg/chainhash"
 )
 
 // genRandomSig returns a random message, a signature of the message under the

@@ -1,4 +1,4 @@
-// Copyright (c) 2016 The htkachuk developers
+// Copyright (c) 2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -11,9 +11,9 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/htkachuk/divi/blockchain"
-	"github.com/htkachuk/divi/database"
-	"github.com/htkachuk/btcutil"
+	"github.com/essentiaone/divi/blockchain"
+	"github.com/essentiaone/divi/database"
+	"github.com/essentiaone/btcutil"
 )
 
 var (

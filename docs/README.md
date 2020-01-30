@@ -19,7 +19,7 @@
 5. [Developer Resources](#DeveloperResources)
     1. [Code Contribution Guidelines](#ContributionGuidelines)
     2. [JSON-RPC Reference](#JSONRPCReference)
-    3. [The htkachuk Bitcoin-related Go Packages](#GoPackages)
+    3. [The essentiaone Bitcoin-related Go Packages](#GoPackages)
 
 <a name="About" />
 
@@ -50,8 +50,8 @@ wallet functionality and this was a very intentional design decision.  See the
 blog entry [here](https://blog.conformal.com/btcd-not-your-moms-bitcoin-daemon)
 for more details.  This means you can't actually make or receive payments
 directly with btcd.  That functionality is provided by the
-[btcwallet](https://github.com/htkachuk/btcwallet) and
-[Paymetheus](https://github.com/htkachuk/Paymetheus) (Windows-only) projects
+[btcwallet](https://github.com/essentiaone/btcwallet) and
+[Paymetheus](https://github.com/essentiaone/Paymetheus) (Windows-only) projects
 which are both under active development.
 
 <a name="GettingStarted" />
@@ -69,7 +69,7 @@ details on how to install on the supported operating systems.
 
 **2.1.1 Windows Installation**<br />
 
-* Install the MSI available at: https://github.com/htkachuk/divi/releases
+* Install the MSI available at: https://github.com/essentiaone/divi/releases
 * Launch btcd from the Start Menu
 
 <a name="PosixInstallation" />
@@ -95,8 +95,8 @@ recommended that `GOPATH` is set to a directory in your home directory such as
 - Run the following commands to obtain btcd, all dependencies, and install it:
 
 ```bash
-$ git clone https://github.com/htkachuk/divi $GOPATH/src/github.com/htkachuk/divi
-$ cd $GOPATH/src/github.com/htkachuk/divi
+$ git clone https://github.com/essentiaone/divi $GOPATH/src/github.com/essentiaone/divi
+$ cd $GOPATH/src/github.com/essentiaone/divi
 $ GO111MODULE=on go install -v . ./cmd/...
 ```
 
@@ -109,7 +109,7 @@ $ GO111MODULE=on go install -v . ./cmd/...
 - Run the following commands to update btcd, all dependencies, and install it:
 
 ```bash
-$ cd $GOPATH/src/github.com/htkachuk/divi
+$ cd $GOPATH/src/github.com/essentiaone/divi
 $ git pull && GO111MODULE=on go install -v . ./cmd/...
 ```
 
@@ -126,7 +126,7 @@ $ git pull && GO111MODULE=on go install -v . ./cmd/...
 
 **2.2 Configuration**
 
-btcd has a number of [configuration](http://godoc.org/github.com/htkachuk/divi)
+btcd has a number of [configuration](http://godoc.org/github.com/essentiaone/divi)
 options, which can be viewed by running: `$ btcd --help`.
 
 <a name="BtcctlConfig" />
@@ -210,23 +210,23 @@ configuration necessary, however, there is an optional method to use a
 
 **3.1.1 bootstrap.dat**
 
-* [Using bootstrap.dat](https://github.com/htkachuk/divi/tree/master/docs/using_bootstrap_dat.md)
+* [Using bootstrap.dat](https://github.com/essentiaone/divi/tree/master/docs/using_bootstrap_dat.md)
 
 <a name="NetworkConfig" />
 
 **3.1.2 Network Configuration**
 
-* [What Ports Are Used by Default?](https://github.com/htkachuk/divi/tree/master/docs/default_ports.md)
-* [How To Listen on Specific Interfaces](https://github.com/htkachuk/divi/tree/master/docs/configure_peer_server_listen_interfaces.md)
-* [How To Configure RPC Server to Listen on Specific Interfaces](https://github.com/htkachuk/divi/tree/master/docs/configure_rpc_server_listen_interfaces.md)
-* [Configuring btcd with Tor](https://github.com/htkachuk/divi/tree/master/docs/configuring_tor.md)
+* [What Ports Are Used by Default?](https://github.com/essentiaone/divi/tree/master/docs/default_ports.md)
+* [How To Listen on Specific Interfaces](https://github.com/essentiaone/divi/tree/master/docs/configure_peer_server_listen_interfaces.md)
+* [How To Configure RPC Server to Listen on Specific Interfaces](https://github.com/essentiaone/divi/tree/master/docs/configure_rpc_server_listen_interfaces.md)
+* [Configuring btcd with Tor](https://github.com/essentiaone/divi/tree/master/docs/configuring_tor.md)
 
 <a name="Wallet" />
 
 **3.1 Wallet**
 
 btcd was intentionally developed without an integrated wallet for security
-reasons.  Please see [btcwallet](https://github.com/htkachuk/btcwallet) for more
+reasons.  Please see [btcwallet](https://github.com/essentiaone/btcwallet) for more
 information.
 
 
@@ -255,42 +255,42 @@ information.
 
 <a name="ContributionGuidelines" />
 
-* [Code Contribution Guidelines](https://github.com/htkachuk/divi/tree/master/docs/code_contribution_guidelines.md)
+* [Code Contribution Guidelines](https://github.com/essentiaone/divi/tree/master/docs/code_contribution_guidelines.md)
 
 <a name="JSONRPCReference" />
 
-* [JSON-RPC Reference](https://github.com/htkachuk/divi/tree/master/docs/json_rpc_api.md)
-    * [RPC Examples](https://github.com/htkachuk/divi/tree/master/docs/json_rpc_api.md#ExampleCode)
+* [JSON-RPC Reference](https://github.com/essentiaone/divi/tree/master/docs/json_rpc_api.md)
+    * [RPC Examples](https://github.com/essentiaone/divi/tree/master/docs/json_rpc_api.md#ExampleCode)
 
 <a name="GoPackages" />
 
-* The htkachuk Bitcoin-related Go Packages:
-    * [btcrpcclient](https://github.com/htkachuk/divi/tree/master/rpcclient) - Implements a
+* The essentiaone Bitcoin-related Go Packages:
+    * [btcrpcclient](https://github.com/essentiaone/divi/tree/master/rpcclient) - Implements a
       robust and easy to use Websocket-enabled Bitcoin JSON-RPC client
-    * [btcjson](https://github.com/htkachuk/divi/tree/master/btcjson) - Provides an extensive API
+    * [btcjson](https://github.com/essentiaone/divi/tree/master/btcjson) - Provides an extensive API
       for the underlying JSON-RPC command and return values
-    * [wire](https://github.com/htkachuk/divi/tree/master/wire) - Implements the
+    * [wire](https://github.com/essentiaone/divi/tree/master/wire) - Implements the
       Bitcoin wire protocol
-    * [peer](https://github.com/htkachuk/divi/tree/master/peer) -
+    * [peer](https://github.com/essentiaone/divi/tree/master/peer) -
       Provides a common base for creating and managing Bitcoin network peers.
-    * [blockchain](https://github.com/htkachuk/divi/tree/master/blockchain) -
+    * [blockchain](https://github.com/essentiaone/divi/tree/master/blockchain) -
       Implements Bitcoin block handling and chain selection rules
-    * [blockchain/fullblocktests](https://github.com/htkachuk/divi/tree/master/blockchain/fullblocktests) -
+    * [blockchain/fullblocktests](https://github.com/essentiaone/divi/tree/master/blockchain/fullblocktests) -
       Provides a set of block tests for testing the consensus validation rules
-    * [txscript](https://github.com/htkachuk/divi/tree/master/txscript) -
+    * [txscript](https://github.com/essentiaone/divi/tree/master/txscript) -
       Implements the Bitcoin transaction scripting language
-    * [btcec](https://github.com/htkachuk/divi/tree/master/btcec) - Implements
+    * [btcec](https://github.com/essentiaone/divi/tree/master/btcec) - Implements
       support for the elliptic curve cryptographic functions needed for the
       Bitcoin scripts
-    * [database](https://github.com/htkachuk/divi/tree/master/database) -
+    * [database](https://github.com/essentiaone/divi/tree/master/database) -
       Provides a database interface for the Bitcoin block chain
-    * [mempool](https://github.com/htkachuk/divi/tree/master/mempool) -
+    * [mempool](https://github.com/essentiaone/divi/tree/master/mempool) -
       Package mempool provides a policy-enforced pool of unmined bitcoin
       transactions.
-    * [btcutil](https://github.com/htkachuk/btcutil) - Provides Bitcoin-specific
+    * [btcutil](https://github.com/essentiaone/btcutil) - Provides Bitcoin-specific
       convenience functions and types
-    * [chainhash](https://github.com/htkachuk/divi/tree/master/chaincfg/chainhash) -
+    * [chainhash](https://github.com/essentiaone/divi/tree/master/chaincfg/chainhash) -
       Provides a generic hash type and associated functions that allows the
       specific hash algorithm to be abstracted.
-    * [connmgr](https://github.com/htkachuk/divi/tree/master/connmgr) -
+    * [connmgr](https://github.com/essentiaone/divi/tree/master/connmgr) -
       Package connmgr implements a generic Bitcoin network connection manager.

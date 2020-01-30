@@ -1,11 +1,11 @@
-// Copyright (c) 2014-2017 The htkachuk developers
+// Copyright (c) 2014-2017 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package rpcclient
 
 import (
-	"github.com/htkachuk/btclog"
+	"github.com/essentiaone/btclog"
 )
 
 // log is a logger that is initialized with no output filters.  This

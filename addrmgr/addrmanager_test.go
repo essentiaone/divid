@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2014 The htkachuk developers
+// Copyright (c) 2013-2014 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/htkachuk/divi/addrmgr"
-	"github.com/htkachuk/divi/wire"
+	"github.com/essentiaone/divi/addrmgr"
+	"github.com/essentiaone/divi/wire"
 )
 
 // naTest is used to describe a test to be performed against the NetAddressKey

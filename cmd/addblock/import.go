@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2016 The htkachuk developers
+// Copyright (c) 2013-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -11,12 +11,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/htkachuk/divi/blockchain"
-	"github.com/htkachuk/divi/blockchain/indexers"
-	"github.com/htkachuk/divi/chaincfg/chainhash"
-	"github.com/htkachuk/divi/database"
-	"github.com/htkachuk/divi/wire"
-	"github.com/htkachuk/btcutil"
+	"github.com/essentiaone/divi/blockchain"
+	"github.com/essentiaone/divi/blockchain/indexers"
+	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divi/database"
+	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/btcutil"
 )
 
 var zeroHash = chainhash.Hash{}

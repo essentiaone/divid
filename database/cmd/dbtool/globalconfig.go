@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The htkachuk developers
+// Copyright (c) 2015-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,11 +10,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/htkachuk/divi/chaincfg"
-	"github.com/htkachuk/divi/database"
-	_ "github.com/htkachuk/divi/database/ffldb"
-	"github.com/htkachuk/divi/wire"
-	"github.com/htkachuk/btcutil"
+	"github.com/essentiaone/divi/chaincfg"
+	"github.com/essentiaone/divi/database"
+	_ "github.com/essentiaone/divi/database/ffldb"
+	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/btcutil"
 )
 
 var (

@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2016 The htkachuk developers
+// Copyright (c) 2013-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/divi/chaincfg"
-	"github.com/htkachuk/divi/chaincfg/chainhash"
-	"github.com/htkachuk/divi/txscript"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/divi/chaincfg"
+	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divi/txscript"
 )
 
 // CheckpointConfirmations is the number of blocks before the end of the current

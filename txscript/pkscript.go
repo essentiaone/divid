@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/htkachuk/divi/btcec"
-	"github.com/htkachuk/divi/chaincfg"
-	"github.com/htkachuk/divi/wire"
-	"github.com/htkachuk/btcutil"
+	"github.com/essentiaone/divi/btcec"
+	"github.com/essentiaone/divi/chaincfg"
+	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/btcutil"
 	"golang.org/x/crypto/ripemd160"
 )
 

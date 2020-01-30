@@ -1,4 +1,4 @@
-// Copyright (c) 2014 The htkachuk developers
+// Copyright (c) 2014 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -11,8 +11,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/htkachuk/divi/btcjson"
-	"github.com/htkachuk/divi/wire"
+	"github.com/essentiaone/divi/btcjson"
+	"github.com/essentiaone/divi/wire"
 )
 
 // TestChainSvrCmds tests all of the chain server commands marshal and unmarshal

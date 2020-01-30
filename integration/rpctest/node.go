@@ -1,4 +1,4 @@
-// Copyright (c) 2016 The htkachuk developers
+// Copyright (c) 2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -14,8 +14,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/htkachuk/btcutil"
-	rpc "github.com/htkachuk/divi/rpcclient"
+	"github.com/essentiaone/btcutil"
+	rpc "github.com/essentiaone/divi/rpcclient"
 )
 
 // nodeConfig contains all the args, and data required to launch a btcd process

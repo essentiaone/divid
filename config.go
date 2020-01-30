@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The htkachuk developers
+// Copyright (c) 2013-2017 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -20,16 +20,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/htkachuk/divi/blockchain"
-	"github.com/htkachuk/divi/chaincfg"
-	"github.com/htkachuk/divi/chaincfg/chainhash"
-	"github.com/htkachuk/divi/connmgr"
-	"github.com/htkachuk/divi/database"
-	_ "github.com/htkachuk/divi/database/ffldb"
-	"github.com/htkachuk/divi/mempool"
-	"github.com/htkachuk/divi/peer"
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/go-socks/socks"
+	"github.com/essentiaone/divi/blockchain"
+	"github.com/essentiaone/divi/chaincfg"
+	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divi/connmgr"
+	"github.com/essentiaone/divi/database"
+	_ "github.com/essentiaone/divi/database/ffldb"
+	"github.com/essentiaone/divi/mempool"
+	"github.com/essentiaone/divi/peer"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/go-socks/socks"
 	flags "github.com/jessevdk/go-flags"
 )
 

@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The htkachuk developers
+// Copyright (c) 2013-2017 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/htkachuk/btcutil"
+	"github.com/essentiaone/btcutil"
 )
 
 // TestMerkle tests the BuildMerkleTreeStore API.

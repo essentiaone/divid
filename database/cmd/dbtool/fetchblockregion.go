@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The htkachuk developers
+// Copyright (c) 2015-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/htkachuk/divi/chaincfg/chainhash"
-	"github.com/htkachuk/divi/database"
+	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divi/database"
 )
 
 // blockRegionCmd defines the configuration options for the fetchblockregion

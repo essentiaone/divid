@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2016 The htkachuk developers
+// Copyright (c) 2013-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,7 +10,7 @@ import (
 	"io"
 	"unicode/utf8"
 
-	"github.com/htkachuk/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divi/chaincfg/chainhash"
 )
 
 // MessageHeaderSize is the number of bytes in a bitcoin message header.

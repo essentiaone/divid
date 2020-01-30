@@ -1,4 +1,4 @@
-// Copyright (c) 2017 The htkachuk developers
+// Copyright (c) 2017 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -7,13 +7,13 @@ package main
 import (
 	"sync/atomic"
 
-	"github.com/htkachuk/divi/blockchain"
-	"github.com/htkachuk/divi/chaincfg/chainhash"
-	"github.com/htkachuk/divi/mempool"
-	"github.com/htkachuk/divi/netsync"
-	"github.com/htkachuk/divi/peer"
-	"github.com/htkachuk/divi/wire"
-	"github.com/htkachuk/btcutil"
+	"github.com/essentiaone/divi/blockchain"
+	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divi/mempool"
+	"github.com/essentiaone/divi/netsync"
+	"github.com/essentiaone/divi/peer"
+	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/btcutil"
 )
 
 // rpcPeer provides a peer for use with the RPC server and implements the

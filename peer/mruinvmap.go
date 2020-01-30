@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2015 The htkachuk developers
+// Copyright (c) 2013-2015 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/htkachuk/divi/wire"
+	"github.com/essentiaone/divi/wire"
 )
 
 // mruInventoryMap provides a concurrency safe map that is limited to a maximum

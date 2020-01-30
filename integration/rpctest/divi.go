@@ -1,4 +1,4 @@
-// Copyright (c) 2017 The htkachuk developers
+// Copyright (c) 2017 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -49,7 +49,7 @@ func btcdExecutablePath() (string, error) {
 		outputPath += ".exe"
 	}
 	cmd := exec.Command(
-		"go", "build", "-o", outputPath, "github.com/htkachuk/divi",
+		"go", "build", "-o", outputPath, "github.com/essentiaone/divi",
 	)
 	err = cmd.Run()
 	if err != nil {

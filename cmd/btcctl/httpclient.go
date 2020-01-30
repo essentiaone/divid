@@ -10,8 +10,8 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/htkachuk/divi/btcjson"
-	"github.com/htkachuk/go-socks/socks"
+	"github.com/essentiaone/divi/btcjson"
+	"github.com/essentiaone/go-socks/socks"
 )
 
 // newHTTPClient returns a new HTTP client that is configured according to the

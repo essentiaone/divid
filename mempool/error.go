@@ -1,12 +1,12 @@
-// Copyright (c) 2014-2016 The htkachuk developers
+// Copyright (c) 2014-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package mempool
 
 import (
-	"github.com/htkachuk/divi/blockchain"
-	"github.com/htkachuk/divi/wire"
+	"github.com/essentiaone/divi/blockchain"
+	"github.com/essentiaone/divi/wire"
 )
 
 // RuleError identifies a rule violation.  It is used to indicate that

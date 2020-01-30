@@ -1,4 +1,4 @@
-// Copyright (c) 2016 The htkachuk developers
+// Copyright (c) 2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -8,10 +8,10 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/htkachuk/divi/blockchain"
-	"github.com/htkachuk/divi/chaincfg/chainhash"
-	"github.com/htkachuk/divi/wire"
-	"github.com/htkachuk/btcutil"
+	"github.com/essentiaone/divi/blockchain"
+	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/btcutil"
 )
 
 // newHashFromStr converts the passed big-endian hex string into a

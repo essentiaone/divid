@@ -1,4 +1,4 @@
-// Copyright (c) 2016 The htkachuk developers
+// Copyright (c) 2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -16,9 +16,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/htkachuk/divi/chaincfg/chainhash"
-	"github.com/htkachuk/divi/mining"
-	"github.com/htkachuk/btcutil"
+	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divi/mining"
+	"github.com/essentiaone/btcutil"
 )
 
 // TODO incorporate Alex Morcos' modifications to Gavin's initial model

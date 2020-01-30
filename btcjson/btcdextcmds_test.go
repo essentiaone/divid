@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2016 The htkachuk developers
+// Copyright (c) 2014-2016 The essentiaone developers
 // Copyright (c) 2015-2016 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/htkachuk/divi/btcjson"
+	"github.com/essentiaone/divi/btcjson"
 )
 
 // TestBtcdExtCmds tests all of the btcd extended commands marshal and unmarshal

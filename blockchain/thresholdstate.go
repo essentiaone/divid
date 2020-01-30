@@ -1,4 +1,4 @@
-// Copyright (c) 2016-2017 The htkachuk developers
+// Copyright (c) 2016-2017 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -7,7 +7,7 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/htkachuk/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divi/chaincfg/chainhash"
 )
 
 // ThresholdState define the various threshold states used when voting on

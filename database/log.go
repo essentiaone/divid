@@ -1,11 +1,11 @@
-// Copyright (c) 2013-2016 The htkachuk developers
+// Copyright (c) 2013-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package database
 
 import (
-	"github.com/htkachuk/btclog"
+	"github.com/essentiaone/btclog"
 )
 
 // log is a logger that is initialized with no output filters.  This

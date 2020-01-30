@@ -1,9 +1,9 @@
 treap
 =====
 
-[![Build Status](https://travis-ci.org/htkachuk/btcd.png?branch=master)](https://travis-ci.org/htkachuk/btcd)
+[![Build Status](https://travis-ci.org/essentiaone/btcd.png?branch=master)](https://travis-ci.org/essentiaone/btcd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://godoc.org/github.com/htkachuk/divi/database/internal/treap?status.png)](http://godoc.org/github.com/htkachuk/divi/database/internal/treap)
+[![GoDoc](https://godoc.org/github.com/essentiaone/divi/database/internal/treap?status.png)](http://godoc.org/github.com/essentiaone/divi/database/internal/treap)
 
 Package treap implements a treap data structure that is used to hold ordered
 key/value pairs using a combination of binary search tree and heap semantics.

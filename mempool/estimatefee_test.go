@@ -1,4 +1,4 @@
-// Copyright (c) 2016 The htkachuk developers
+// Copyright (c) 2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -9,10 +9,10 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/htkachuk/divi/chaincfg/chainhash"
-	"github.com/htkachuk/divi/mining"
-	"github.com/htkachuk/divi/wire"
-	"github.com/htkachuk/btcutil"
+	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divi/mining"
+	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/btcutil"
 )
 
 // newTestFeeEstimator creates a feeEstimator with some different parameters

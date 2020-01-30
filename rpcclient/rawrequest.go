@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The htkachuk developers
+// Copyright (c) 2014-2017 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/htkachuk/divi/btcjson"
+	"github.com/essentiaone/divi/btcjson"
 )
 
 // FutureRawResult is a future promise to deliver the result of a RawRequest RPC

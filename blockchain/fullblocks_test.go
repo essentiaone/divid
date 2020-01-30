@@ -1,5 +1,5 @@
 // Copyright (c) 2016 The Decred developers
-// Copyright (c) 2016-2017 The htkachuk developers
+// Copyright (c) 2016-2017 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -12,15 +12,15 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/htkachuk/divi/blockchain"
-	"github.com/htkachuk/divi/blockchain/fullblocktests"
-	"github.com/htkachuk/divi/chaincfg"
-	"github.com/htkachuk/divi/chaincfg/chainhash"
-	"github.com/htkachuk/divi/database"
-	_ "github.com/htkachuk/divi/database/ffldb"
-	"github.com/htkachuk/divi/txscript"
-	"github.com/htkachuk/divi/wire"
-	"github.com/htkachuk/btcutil"
+	"github.com/essentiaone/divi/blockchain"
+	"github.com/essentiaone/divi/blockchain/fullblocktests"
+	"github.com/essentiaone/divi/chaincfg"
+	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divi/database"
+	_ "github.com/essentiaone/divi/database/ffldb"
+	"github.com/essentiaone/divi/txscript"
+	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/btcutil"
 )
 
 const (

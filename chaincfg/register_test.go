@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/htkachuk/divi/chaincfg"
+	. "github.com/essentiaone/divi/chaincfg"
 )
 
 // Define some of the required parameters for a user-registered

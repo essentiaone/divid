@@ -1,9 +1,9 @@
 chainhash
 =========
 
-[![Build Status](http://img.shields.io/travis/htkachuk/btcd.svg)](https://travis-ci.org/htkachuk/btcd)
+[![Build Status](http://img.shields.io/travis/essentiaone/btcd.svg)](https://travis-ci.org/essentiaone/btcd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/htkachuk/divi/chaincfg/chainhash)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/essentiaone/divi/chaincfg/chainhash)
 =======
 
 chainhash provides a generic hash type and associated functions that allows the
@@ -12,13 +12,13 @@ specific hash algorithm to be abstracted.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/htkachuk/divi/chaincfg/chainhash
+$ go get -u github.com/essentiaone/divi/chaincfg/chainhash
 ```
 
 ## GPG Verification Key
 
 All official release tags are signed by Conformal so users can ensure the code
-has not been tampered with and is coming from the htkachuk developers.  To
+has not been tampered with and is coming from the essentiaone developers.  To
 verify the signature perform the following:
 
 - Download the public key from the Conformal website at

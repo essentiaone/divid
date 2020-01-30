@@ -1,9 +1,9 @@
 cpuminer
 ========
 
-[![Build Status](http://img.shields.io/travis/htkachuk/btcd.svg)](https://travis-ci.org/htkachuk/btcd)
+[![Build Status](http://img.shields.io/travis/essentiaone/btcd.svg)](https://travis-ci.org/essentiaone/btcd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/htkachuk/divi/mining/cpuminer)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/essentiaone/divi/mining/cpuminer)
 =======
 
 ## Overview
@@ -16,7 +16,7 @@ now.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/htkachuk/divi/mining/cpuminer
+$ go get -u github.com/essentiaone/divi/mining/cpuminer
 ```
 
 ## License

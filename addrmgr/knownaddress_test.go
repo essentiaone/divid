@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2015 The htkachuk developers
+// Copyright (c) 2013-2015 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/htkachuk/divi/addrmgr"
-	"github.com/htkachuk/divi/wire"
+	"github.com/essentiaone/divi/addrmgr"
+	"github.com/essentiaone/divi/wire"
 )
 
 func TestChance(t *testing.T) {

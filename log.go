@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The htkachuk developers
+// Copyright (c) 2013-2017 The essentiaone developers
 // Copyright (c) 2017 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -10,19 +10,19 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/htkachuk/divi/addrmgr"
-	"github.com/htkachuk/divi/blockchain"
-	"github.com/htkachuk/divi/blockchain/indexers"
-	"github.com/htkachuk/divi/connmgr"
-	"github.com/htkachuk/divi/database"
-	"github.com/htkachuk/divi/mempool"
-	"github.com/htkachuk/divi/mining"
-	"github.com/htkachuk/divi/mining/cpuminer"
-	"github.com/htkachuk/divi/netsync"
-	"github.com/htkachuk/divi/peer"
-	"github.com/htkachuk/divi/txscript"
+	"github.com/essentiaone/divi/addrmgr"
+	"github.com/essentiaone/divi/blockchain"
+	"github.com/essentiaone/divi/blockchain/indexers"
+	"github.com/essentiaone/divi/connmgr"
+	"github.com/essentiaone/divi/database"
+	"github.com/essentiaone/divi/mempool"
+	"github.com/essentiaone/divi/mining"
+	"github.com/essentiaone/divi/mining/cpuminer"
+	"github.com/essentiaone/divi/netsync"
+	"github.com/essentiaone/divi/peer"
+	"github.com/essentiaone/divi/txscript"
 
-	"github.com/htkachuk/btclog"
+	"github.com/essentiaone/btclog"
 	"github.com/jrick/logrotate/rotator"
 )
 

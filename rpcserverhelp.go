@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2017 The htkachuk developers
+// Copyright (c) 2015-2017 The essentiaone developers
 // Copyright (c) 2015-2017 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/htkachuk/divi/btcjson"
+	"github.com/essentiaone/divi/btcjson"
 )
 
 // helpDescsEnUS defines the English descriptions used for the help strings.

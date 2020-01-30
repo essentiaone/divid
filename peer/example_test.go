@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2018 The htkachuk developers
+// Copyright (c) 2015-2018 The essentiaone developers
 // Copyright (c) 2016-2018 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -10,9 +10,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/htkachuk/divi/chaincfg"
-	"github.com/htkachuk/divi/peer"
-	"github.com/htkachuk/divi/wire"
+	"github.com/essentiaone/divi/chaincfg"
+	"github.com/essentiaone/divi/peer"
+	"github.com/essentiaone/divi/wire"
 )
 
 // mockRemotePeer creates a basic inbound peer listening on the simnet port for

@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The htkachuk developers
+// Copyright (c) 2015-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/htkachuk/divi/database/internal/treap"
-	"github.com/htkachuk/goleveldb/leveldb"
-	"github.com/htkachuk/goleveldb/leveldb/iterator"
-	"github.com/htkachuk/goleveldb/leveldb/util"
+	"github.com/essentiaone/divi/database/internal/treap"
+	"github.com/essentiaone/goleveldb/leveldb"
+	"github.com/essentiaone/goleveldb/leveldb/iterator"
+	"github.com/essentiaone/goleveldb/leveldb/util"
 )
 
 const (

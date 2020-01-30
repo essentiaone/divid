@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The htkachuk developers
+// Copyright (c) 2015-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -14,18 +14,18 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/htkachuk/divi/chaincfg/chainhash"
-	"github.com/htkachuk/divi/database"
-	"github.com/htkachuk/divi/database/internal/treap"
-	"github.com/htkachuk/divi/wire"
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/goleveldb/leveldb"
-	"github.com/htkachuk/goleveldb/leveldb/comparer"
-	ldberrors "github.com/htkachuk/goleveldb/leveldb/errors"
-	"github.com/htkachuk/goleveldb/leveldb/filter"
-	"github.com/htkachuk/goleveldb/leveldb/iterator"
-	"github.com/htkachuk/goleveldb/leveldb/opt"
-	"github.com/htkachuk/goleveldb/leveldb/util"
+	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divi/database"
+	"github.com/essentiaone/divi/database/internal/treap"
+	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/goleveldb/leveldb"
+	"github.com/essentiaone/goleveldb/leveldb/comparer"
+	ldberrors "github.com/essentiaone/goleveldb/leveldb/errors"
+	"github.com/essentiaone/goleveldb/leveldb/filter"
+	"github.com/essentiaone/goleveldb/leveldb/iterator"
+	"github.com/essentiaone/goleveldb/leveldb/opt"
+	"github.com/essentiaone/goleveldb/leveldb/util"
 )
 
 const (

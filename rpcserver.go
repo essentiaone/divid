@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The htkachuk developers
+// Copyright (c) 2013-2017 The essentiaone developers
 // Copyright (c) 2015-2017 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -27,21 +27,21 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/htkachuk/divi/blockchain"
-	"github.com/htkachuk/divi/blockchain/indexers"
-	"github.com/htkachuk/divi/btcec"
-	"github.com/htkachuk/divi/btcjson"
-	"github.com/htkachuk/divi/chaincfg"
-	"github.com/htkachuk/divi/chaincfg/chainhash"
-	"github.com/htkachuk/divi/database"
-	"github.com/htkachuk/divi/mempool"
-	"github.com/htkachuk/divi/mining"
-	"github.com/htkachuk/divi/mining/cpuminer"
-	"github.com/htkachuk/divi/peer"
-	"github.com/htkachuk/divi/txscript"
-	"github.com/htkachuk/divi/wire"
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/websocket"
+	"github.com/essentiaone/divi/blockchain"
+	"github.com/essentiaone/divi/blockchain/indexers"
+	"github.com/essentiaone/divi/btcec"
+	"github.com/essentiaone/divi/btcjson"
+	"github.com/essentiaone/divi/chaincfg"
+	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divi/database"
+	"github.com/essentiaone/divi/mempool"
+	"github.com/essentiaone/divi/mining"
+	"github.com/essentiaone/divi/mining/cpuminer"
+	"github.com/essentiaone/divi/peer"
+	"github.com/essentiaone/divi/txscript"
+	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/websocket"
 )
 
 // API version constants
@@ -2259,7 +2259,7 @@ func handleGetHashesPerSec(s *rpcServer, cmd interface{}, closeChan <-chan struc
 
 // handleGetHeaders implements the getheaders command.
 //
-// NOTE: This is a htkachuk extension originally ported from
+// NOTE: This is a essentiaone extension originally ported from
 // github.com/decred/dcrd.
 func handleGetHeaders(s *rpcServer, cmd interface{}, closeChan <-chan struct{}) (interface{}, error) {
 	c := cmd.(*btcjson.GetHeadersCmd)
@@ -3589,7 +3589,7 @@ func handleVerifyMessage(s *rpcServer, cmd interface{}, closeChan <-chan struct{
 
 // handleVersion implements the version command.
 //
-// NOTE: This is a htkachuk extension ported from github.com/decred/dcrd.
+// NOTE: This is a essentiaone extension ported from github.com/decred/dcrd.
 func handleVersion(s *rpcServer, cmd interface{}, closeChan <-chan struct{}) (interface{}, error) {
 	result := map[string]btcjson.VersionResult{
 		"btcdjsonrpcapi": {

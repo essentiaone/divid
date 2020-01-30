@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2016 The htkachuk developers
+// Copyright (c) 2014-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -7,8 +7,8 @@ package chaincfg
 import (
 	"time"
 
-	"github.com/htkachuk/divi/chaincfg/chainhash"
-	"github.com/htkachuk/divi/wire"
+	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divi/wire"
 )
 
 // genesisCoinbaseTx is the coinbase transaction for the genesis blocks for

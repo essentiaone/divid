@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The htkachuk developers
+// Copyright (c) 2014-2017 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/htkachuk/divi/btcjson"
-	"github.com/htkachuk/go-socks/socks"
-	"github.com/htkachuk/websocket"
+	"github.com/essentiaone/divi/btcjson"
+	"github.com/essentiaone/go-socks/socks"
+	"github.com/essentiaone/websocket"
 )
 
 var (

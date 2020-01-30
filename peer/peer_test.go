@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The htkachuk developers
+// Copyright (c) 2015-2016 The essentiaone developers
 // Copyright (c) 2016-2018 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/htkachuk/divi/chaincfg"
-	"github.com/htkachuk/divi/chaincfg/chainhash"
-	"github.com/htkachuk/divi/peer"
-	"github.com/htkachuk/divi/wire"
-	"github.com/htkachuk/go-socks/socks"
+	"github.com/essentiaone/divi/chaincfg"
+	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divi/peer"
+	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/go-socks/socks"
 )
 
 // conn mocks a network connection by implementing the net.Conn interface.  It

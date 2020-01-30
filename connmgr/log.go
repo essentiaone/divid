@@ -1,10 +1,10 @@
-// Copyright (c) 2016 The htkachuk developers
+// Copyright (c) 2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package connmgr
 
-import "github.com/htkachuk/btclog"
+import "github.com/essentiaone/btclog"
 
 // log is a logger that is initialized with no output filters.  This
 // means the package will not perform any logging by default until the caller

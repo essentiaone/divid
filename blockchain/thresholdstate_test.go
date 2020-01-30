@@ -1,4 +1,4 @@
-// Copyright (c) 2016 The htkachuk developers
+// Copyright (c) 2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/htkachuk/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divi/chaincfg/chainhash"
 )
 
 // TestThresholdStateStringer tests the stringized output for the

@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/htkachuk/divi/wire"
+	"github.com/essentiaone/divi/wire"
 )
 
 // randAddr generates a *wire.NetAddress backed by a random IPv4/IPv6 address.

@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The htkachuk developers
+// Copyright (c) 2015-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,11 +10,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/htkachuk/divi/chaincfg"
-	"github.com/htkachuk/divi/database"
-	_ "github.com/htkachuk/divi/database/ffldb"
-	"github.com/htkachuk/divi/wire"
-	"github.com/htkachuk/btcutil"
+	"github.com/essentiaone/divi/chaincfg"
+	"github.com/essentiaone/divi/database"
+	_ "github.com/essentiaone/divi/database/ffldb"
+	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/btcutil"
 )
 
 // This example demonstrates creating a new database.
@@ -22,8 +22,8 @@ func ExampleCreate() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/htkachuk/divi/database"
-	// 	_ "github.com/htkachuk/divi/database/ffldb"
+	// 	"github.com/essentiaone/divi/database"
+	// 	_ "github.com/essentiaone/divi/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.
@@ -48,8 +48,8 @@ func Example_basicUsage() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/htkachuk/divi/database"
-	// 	_ "github.com/htkachuk/divi/database/ffldb"
+	// 	"github.com/essentiaone/divi/database"
+	// 	_ "github.com/essentiaone/divi/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.
@@ -114,8 +114,8 @@ func Example_blockStorageAndRetrieval() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/htkachuk/divi/database"
-	// 	_ "github.com/htkachuk/divi/database/ffldb"
+	// 	"github.com/essentiaone/divi/database"
+	// 	_ "github.com/essentiaone/divi/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.

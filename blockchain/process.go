@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The htkachuk developers
+// Copyright (c) 2013-2017 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/htkachuk/divi/chaincfg/chainhash"
-	"github.com/htkachuk/divi/database"
-	"github.com/htkachuk/btcutil"
+	"github.com/essentiaone/divi/chaincfg/chainhash"
+	"github.com/essentiaone/divi/database"
+	"github.com/essentiaone/btcutil"
 )
 
 // BehaviorFlags is a bitmask defining tweaks to the normal behavior when

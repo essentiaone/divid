@@ -1,12 +1,12 @@
-// Copyright (c) 2015-2016 The htkachuk developers
+// Copyright (c) 2015-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package blockchain
 
 import (
-	"github.com/htkachuk/divi/btcec"
-	"github.com/htkachuk/divi/txscript"
+	"github.com/essentiaone/divi/btcec"
+	"github.com/essentiaone/divi/txscript"
 )
 
 // -----------------------------------------------------------------------------

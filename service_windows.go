@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2016 The htkachuk developers
+// Copyright (c) 2013-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/htkachuk/winsvc/eventlog"
-	"github.com/htkachuk/winsvc/mgr"
-	"github.com/htkachuk/winsvc/svc"
+	"github.com/essentiaone/winsvc/eventlog"
+	"github.com/essentiaone/winsvc/mgr"
+	"github.com/essentiaone/winsvc/svc"
 )
 
 const (

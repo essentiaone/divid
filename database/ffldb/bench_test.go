@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The htkachuk developers
+// Copyright (c) 2015-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/htkachuk/divi/chaincfg"
-	"github.com/htkachuk/divi/database"
-	"github.com/htkachuk/btcutil"
+	"github.com/essentiaone/divi/chaincfg"
+	"github.com/essentiaone/divi/database"
+	"github.com/essentiaone/btcutil"
 )
 
 // BenchmarkBlockHeader benchmarks how long it takes to load the mainnet genesis

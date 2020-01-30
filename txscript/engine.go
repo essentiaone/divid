@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2018 The htkachuk developers
+// Copyright (c) 2013-2018 The essentiaone developers
 // Copyright (c) 2015-2018 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/htkachuk/divi/btcec"
-	"github.com/htkachuk/divi/wire"
+	"github.com/essentiaone/divi/btcec"
+	"github.com/essentiaone/divi/wire"
 )
 
 // ScriptFlags is a bitmask defining additional operations or tests that will be

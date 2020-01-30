@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/htkachuk/divi/wire"
+	"github.com/essentiaone/divi/wire"
 )
 
 // TestParsePkScript ensures that the supported script types can be parsed

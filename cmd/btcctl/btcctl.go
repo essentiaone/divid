@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/htkachuk/divi/btcjson"
+	"github.com/essentiaone/divi/btcjson"
 )
 
 const (

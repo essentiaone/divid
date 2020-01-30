@@ -1,4 +1,4 @@
-// Copyright (c) 2016 The htkachuk developers
+// Copyright (c) 2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/htkachuk/btclog"
-	"github.com/htkachuk/btcutil"
+	"github.com/essentiaone/btclog"
+	"github.com/essentiaone/btcutil"
 )
 
 // blockProgressLogger provides periodic logging for other services in order
