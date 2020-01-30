@@ -17,7 +17,7 @@ import (
 	"github.com/essentiaone/divid/chaincfg/chainhash"
 	"github.com/essentiaone/divid/peer"
 	"github.com/essentiaone/divid/wire"
-	"github.com/essentiaone/go-socks/socks"
+	"github.com/btcsuite/go-socks/socks"
 )
 
 // conn mocks a network connection by implementing the net.Conn interface.  It

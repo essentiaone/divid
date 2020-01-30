@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"github.com/essentiaone/divid/btcjson"
-	"github.com/essentiaone/go-socks/socks"
-	"github.com/essentiaone/websocket"
+	"github.com/btcsuite/go-socks/socks"
+	"github.com/btcsuite/websocket"
 )
 
 var (

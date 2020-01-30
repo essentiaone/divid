@@ -18,7 +18,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/essentiaone/go-socks/socks"
+	"github.com/btcsuite/go-socks/socks"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/essentiaone/divid/blockchain"
 	"github.com/essentiaone/divid/chaincfg"

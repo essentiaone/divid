@@ -29,7 +29,7 @@ import (
 	"github.com/essentiaone/divid/mempool"
 	"github.com/essentiaone/divid/peer"
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/go-socks/socks"
+	"github.com/btcsuite/go-socks/socks"
 	flags "github.com/jessevdk/go-flags"
 )
 

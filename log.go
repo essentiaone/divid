@@ -22,7 +22,7 @@ import (
 	"github.com/essentiaone/divid/peer"
 	"github.com/essentiaone/divid/txscript"
 
-	"github.com/essentiaone/btclog"
+	"github.com/btcsuite/btclog"
 	"github.com/jrick/logrotate/rotator"
 )
 

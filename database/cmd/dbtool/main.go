@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/essentiaone/divid/database"
-	"github.com/essentiaone/btclog"
+	"github.com/btcsuite/btclog"
 	flags "github.com/jessevdk/go-flags"
 )
 

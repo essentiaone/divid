@@ -7,7 +7,7 @@ package database
 import (
 	"fmt"
 
-	"github.com/essentiaone/btclog"
+	"github.com/btcsuite/btclog"
 )
 
 // Driver defines a structure for backend drivers to use when they registered

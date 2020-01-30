@@ -9,7 +9,7 @@ import (
 
 	"github.com/essentiaone/divid/database"
 	"github.com/essentiaone/divid/wire"
-	"github.com/essentiaone/btclog"
+	"github.com/btcsuite/btclog"
 )
 
 var log = btclog.Disabled

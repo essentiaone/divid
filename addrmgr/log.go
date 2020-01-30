@@ -5,7 +5,7 @@
 package addrmgr
 
 import (
-	"github.com/essentiaone/btclog"
+	"github.com/btcsuite/btclog"
 )
 
 // log is a logger that is initialized with no output filters.  This

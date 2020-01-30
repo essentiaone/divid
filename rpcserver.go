@@ -41,7 +41,7 @@ import (
 	"github.com/essentiaone/divid/txscript"
 	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/websocket"
+	"github.com/btcsuite/websocket"
 )
 
 // API version constants

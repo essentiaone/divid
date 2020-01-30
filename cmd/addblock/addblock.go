@@ -13,7 +13,7 @@ import (
 	"github.com/essentiaone/divid/blockchain/indexers"
 	"github.com/essentiaone/divid/database"
 	"github.com/essentiaone/divid/limits"
-	"github.com/essentiaone/btclog"
+	"github.com/btcsuite/btclog"
 )
 
 const (
